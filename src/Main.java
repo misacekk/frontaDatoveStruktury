@@ -22,12 +22,16 @@ public class Main {
         fronta.vypisFrontu();
         System.out.println();
 
-        fronta.pridatZaka(new Zak("Štěpán", "Andrlík", 3));
-
-        System.out.println();
         fronta.nakouknoutNaDalsiho();
         System.out.println();
 
         fronta.vypisFrontu();
+        System.out.println();
+
+        fronta.nakouknoutDoFronty();
+        System.out.println();
+
+        fronta.pridatZaka(new Zak("Štěpán", "Andrlík", 3));
+        System.out.println();
     }
 }
